@@ -1,0 +1,11 @@
+--- jwt-1.1.0/setup.py.orig	2020-10-30 07:10:02.000000000 +0100
++++ jwt-1.1.0/setup.py	2021-01-19 21:59:49.627014086 +0100
+@@ -24,7 +24,7 @@
+ 
+ here = os.path.dirname(__file__)
+ requires = [
+-    'cryptography > 2.9.2, <= 3.2.1',
++    'cryptography > 2.9.2',
+ ]
+ 
+ 
